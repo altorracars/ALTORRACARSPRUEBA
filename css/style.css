@@ -118,16 +118,28 @@ button {
     gap: var(--spacing-md);
 }
 
+/* Formato para el logo y el texto nuevo */
 .logo {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-gold);
+    gap: 15px; /* Espacio entre la llanta y el texto */
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.logo-text {
+    font-size: 1.1rem; /* Ajustado para que no sea muy grande */
+    line-height: 1.1;
+    font-weight: 800;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+    text-align: left;
 }
 
 #logo-img {
-    max-height: 50px;
+    height: 70px; /* Tamaño ideal para que se vea claro pero no gigante */
+    width: auto;
+    max-height: none; 
 }
 
 .nav-menu {
