@@ -127,10 +127,7 @@ button {
 }
 
 #logo-img {
-    height: 50px;       /* Controlamos la altura, no el ancho */
-    width: auto;        /* El ancho se ajustará solo para mantener la forma */
-    max-height: none;   /* Quitamos el límite antiguo */
-    object-fit: contain;
+    max-height: 50px;
 }
 
 .nav-menu {
