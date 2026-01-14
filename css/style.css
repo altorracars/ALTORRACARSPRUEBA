@@ -127,7 +127,10 @@ button {
 }
 
 #logo-img {
-    max-height: 50px;
+    width: 180px;      /* Aumentamos el tamaño (puedes probar 200px si quieres más grande) */
+    height: auto;      /* Mantiene la proporción correcta */
+    max-height: none;  /* Eliminamos la restricción de 50px */
+    object-fit: contain;
 }
 
 .nav-menu {
